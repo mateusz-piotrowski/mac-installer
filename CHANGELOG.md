@@ -6,4 +6,5 @@
 
 - License
 - Readme
+- Macbook Installer Script file
 
