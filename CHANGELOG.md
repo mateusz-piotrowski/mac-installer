@@ -1,5 +1,12 @@
 # The Changelog
 
+## [0.0.3] (January 08 2021)
+
+**Added :**
+
+- title() function
+
+
 ## [0.0.2] (January 07 2021)
 
 **Added :**
