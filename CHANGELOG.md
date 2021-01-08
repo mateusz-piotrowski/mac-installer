@@ -1,5 +1,12 @@
 # The Changelog
 
+## [0.0.4] (January 09 2021)
+
+**Added :**
+
+- heading() function
+
+
 ## [0.0.3] (January 08 2021)
 
 **Added :**

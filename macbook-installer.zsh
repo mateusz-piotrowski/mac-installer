@@ -8,6 +8,11 @@ title () {
   echo ""
 }
 
+heading () {
+  printf "\n\n# $1\n\n"
+}
+
 # - - - - - - - - - - - - - - - - -
 
 title
+
