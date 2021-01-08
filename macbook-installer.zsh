@@ -9,7 +9,7 @@ title () {
 }
 
 heading () {
-  printf "\n\n# $1\n\n"
+  printf "\n\n$(tput setaf 2)# $1 $(tput sgr0) \n\n"
 }
 
 # - - - - - - - - - - - - - - - - -
@@ -18,3 +18,4 @@ title
 
 heading "Install Xcode Command Line Tools ..."
 xcode-select --install
+

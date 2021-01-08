@@ -6,6 +6,7 @@
 
 - heading() function
 - Xcode Command Line Tools
+- Colorize the heading() function
 
 
 ## [0.0.3] (January 08 2021)
