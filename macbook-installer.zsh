@@ -16,6 +16,6 @@ heading () {
 
 title
 
-heading "Install Xcode Command Line Tools ..."
+heading "Installing Xcode Command Line Tools ..."
 xcode-select --install
 

@@ -1,5 +1,12 @@
 # The Changelog
 
+## [0.0.5] (January 24 2021)
+
+**Updated :**
+
+- Xcode Command Line Tools heading label
+
+
 ## [0.0.4] (January 09 2021)
 
 **Added :**
