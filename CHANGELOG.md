@@ -2,6 +2,9 @@
 
 ## [0.0.5] (January 24 2021)
 
+**Added :**
+- Homebrew package manager
+
 **Updated :**
 
 - Xcode Command Line Tools heading label
