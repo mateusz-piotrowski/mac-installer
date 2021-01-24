@@ -34,6 +34,11 @@ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O 
 heading "Installing Neovim app ..."
 brew install neovim
 
+heading "Installing Emacs app ..."
+brew tap railwaycat/emacsmacport
+brew install emacs-mac --with-modules
+cp -r /usr/local/opt/emacs-mac/Emacs.app /Applications/Emacs.app
+
 heading "Installing Dash app ..."
 brew install --cask dash
 

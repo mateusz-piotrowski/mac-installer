@@ -8,6 +8,7 @@
 - Zsh autosuggestions
 - Wget app
 - Neovim app
+- Emacs app
 - Midnight Commander app
 - Oh My Zsh framework
 - Dash app
