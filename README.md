@@ -20,6 +20,12 @@ Run the following command from Terminal app to install packages.
 $ ./macbook-installer.zsh
 ```
 
+## Components
+
+- Homebrew
+- Homebrew Cask
+- Oh My Zsh
+
 ## Contributor
 
 Mateusz Piotrowski
@@ -27,3 +33,4 @@ Mateusz Piotrowski
 ## License
 
 MIT
+

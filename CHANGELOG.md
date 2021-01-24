@@ -13,6 +13,7 @@
 **Updated :**
 
 - Xcode Command Line Tools heading label
+- Readme file
 
 
 ## [0.0.4] (January 09 2021)
