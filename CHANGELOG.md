@@ -8,6 +8,7 @@
 - Zsh autosuggestions
 - Wget app
 - Neovim app
+- Midnight Commander app
 
 **Updated :**
 

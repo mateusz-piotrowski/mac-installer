@@ -26,7 +26,7 @@ heading "Installing Homebrew Cask ..."
 brew cask
 
 heading "Installing essential packages ..."
-brew install zsh-autosuggestions wget
+brew install zsh-autosuggestions wget mc
 
 heading "Installing Neovim app ..."
 brew install neovim
