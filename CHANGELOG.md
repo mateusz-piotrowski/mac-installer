@@ -16,6 +16,7 @@
 
 - Xcode Command Line Tools heading label
 - Readme file
+- heading() function
 
 
 ## [0.0.4] (January 09 2021)

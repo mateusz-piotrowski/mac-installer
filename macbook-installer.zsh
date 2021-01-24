@@ -9,7 +9,7 @@ title () {
 }
 
 heading () {
-  printf "\n\n$(tput setaf 2)# $1 $(tput sgr0) \n\n"
+  printf "\n$(tput setaf 2)# $1 $(tput sgr0)\n\n"
 }
 
 # - - - - - - - - - - - - - - - - -
