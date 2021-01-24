@@ -4,6 +4,7 @@
 
 **Added :**
 - Homebrew package manager
+- Homebrew Cask
 
 **Updated :**
 
