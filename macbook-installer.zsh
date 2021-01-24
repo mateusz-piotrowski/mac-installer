@@ -34,3 +34,6 @@ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O 
 heading "Installing Neovim app ..."
 brew install neovim
 
+heading "Installing Dash app ..."
+brew install --cask dash
+

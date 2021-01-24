@@ -10,6 +10,7 @@
 - Neovim app
 - Midnight Commander app
 - Oh My Zsh framework
+- Dash app
 
 **Updated :**
 
