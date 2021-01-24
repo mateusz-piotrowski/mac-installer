@@ -7,6 +7,7 @@
 - Homebrew Cask
 - Zsh autosuggestions
 - Wget app
+- Neovim app
 
 **Updated :**
 

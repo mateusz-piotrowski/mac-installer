@@ -28,3 +28,6 @@ brew cask
 heading "Installing essential packages ..."
 brew install zsh-autosuggestions wget
 
+heading "Installing Neovim app ..."
+brew install neovim
+
