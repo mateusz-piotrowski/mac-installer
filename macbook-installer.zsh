@@ -24,3 +24,7 @@ heading "Installing Homebrew package manager ..."
 
 heading "Installing Homebrew Cask ..."
 brew cask
+
+heading "Installing essential packages ..."
+brew install zsh-autosuggestions
+

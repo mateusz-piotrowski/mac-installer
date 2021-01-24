@@ -5,6 +5,7 @@
 **Added :**
 - Homebrew package manager
 - Homebrew Cask
+- Zsh autosuggestions
 
 **Updated :**
 
