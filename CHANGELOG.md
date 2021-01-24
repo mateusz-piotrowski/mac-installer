@@ -9,6 +9,7 @@
 - Wget app
 - Neovim app
 - Midnight Commander app
+- Oh My Zsh framework
 
 **Updated :**
 

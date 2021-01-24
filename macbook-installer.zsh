@@ -28,6 +28,9 @@ brew cask
 heading "Installing essential packages ..."
 brew install zsh-autosuggestions wget mc
 
+heading "Installing Oh My Zsh ..."
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
 heading "Installing Neovim app ..."
 brew install neovim
 
