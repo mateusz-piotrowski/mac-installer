@@ -6,6 +6,7 @@
 - Homebrew package manager
 - Homebrew Cask
 - Zsh autosuggestions
+- Wget app
 
 **Updated :**
 

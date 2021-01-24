@@ -26,5 +26,5 @@ heading "Installing Homebrew Cask ..."
 brew cask
 
 heading "Installing essential packages ..."
-brew install zsh-autosuggestions
+brew install zsh-autosuggestions wget
 
