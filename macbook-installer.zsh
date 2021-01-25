@@ -5,12 +5,12 @@
 title () {
   echo ""
   echo "# = = = = = = = = = = = = "
-  printf "#$(tput setaf 6) The MacBook Installer$(tput sgr0)\n"
+  printf "#$(tput setaf 4) The MacBook Installer$(tput sgr0)\n"
   echo "# = = = = = = = = = = = = "
 }
 
 heading () {
-  printf "\n$(tput setaf 2)# $1 $(tput sgr0)\n\n"
+  printf "\n$(tput setaf 6)# $1 $(tput sgr0)\n\n"
 }
 
 # - - - - - - - - - - - - - - - - -

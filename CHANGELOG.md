@@ -7,6 +7,8 @@
 - Colorize and update the title() function
 - Detection of Homebrew package manager
 
+**Updated :**
+- Color in the heading() function
 
 ## [0.0.5] (January 24 2021)
 
