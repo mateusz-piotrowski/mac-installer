@@ -39,6 +39,16 @@ brew tap railwaycat/emacsmacport
 brew install emacs-mac --with-modules
 cp -r /usr/local/opt/emacs-mac/Emacs.app /Applications/Emacs.app
 
+heading "Installing Doom Emacs ..."
+brew install ripgrep coreutils fd
+
+if [ ! -d "$HOME/.emacs.d" ]; then
+  git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+fi
+if [ ! -d "$HOME/.doom.d" ]; then
+  ~/.emacs.d/bin/doom install
+fi
+
 heading "Installing Dash app ..."
 brew install --cask dash
 

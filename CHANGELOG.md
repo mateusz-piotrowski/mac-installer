@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.6] (January 25 2021)
+
+**Added :**
+- Doom Emacs
+
+
 ## [0.0.5] (January 24 2021)
 
 **Added :**
