@@ -32,7 +32,9 @@ heading "Installing essential packages ..."
 brew install zsh-autosuggestions wget mc
 
 heading "Installing Oh My Zsh ..."
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+  sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+fi
 
 heading "Installing Neovim app ..."
 brew install neovim

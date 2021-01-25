@@ -6,6 +6,7 @@
 - Doom Emacs
 - Colorize and update the title() function
 - Detection of Homebrew package manager
+- Detection of Oh My Zsh framework
 
 **Updated :**
 - Color in the heading() function
