@@ -21,7 +21,9 @@ heading "Installing Xcode Command Line Tools ..."
 xcode-select --install
 
 heading "Installing Homebrew package manager ..."
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+if [ ! -d "/usr/local/Homebrew" ]; then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
 heading "Installing Homebrew Cask ..."
 brew cask
