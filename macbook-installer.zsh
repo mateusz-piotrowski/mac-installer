@@ -26,7 +26,9 @@ if [ ! -d "/usr/local/Homebrew" ]; then
 fi
 
 heading "Installing Homebrew Cask ..."
-brew cask
+if [ ! -d "/usr/local/Homebrew/Library/Homebrew/cask" ]; then
+  brew cask
+fi
 
 heading "Installing essential packages ..."
 brew install zsh-autosuggestions wget mc
