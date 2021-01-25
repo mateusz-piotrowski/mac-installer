@@ -1,11 +1,12 @@
 #!/bin/zsh
 
+# - - - - - - - - - - - - - - - - -
+
 title () {
   echo ""
   echo "# = = = = = = = = = = = = "
-  echo "# The Macbook Installer"
+  printf "#$(tput setaf 6) The MacBook Installer$(tput sgr0)\n"
   echo "# = = = = = = = = = = = = "
-  echo ""
 }
 
 heading () {
