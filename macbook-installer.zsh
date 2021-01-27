@@ -56,6 +56,8 @@ if [ ! -d "$HOME/.doom.d" ]; then
   ~/.emacs.d/bin/doom install
 fi
 
+heading "Installing Visual Studio Code ..."
+brew install --cask visual-studio-code
+
 heading "Installing Dash app ..."
 brew install --cask dash
-

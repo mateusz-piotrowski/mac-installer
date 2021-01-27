@@ -1,8 +1,15 @@
 # The Changelog
 
+## [0.0.7] (January 27 2021)
+
+**Added :**
+
+- Visual Studio Code app
+
 ## [0.0.6] (January 25 2021)
 
 **Added :**
+
 - Doom Emacs
 - Colorize and update the title() function
 - Detection of Homebrew package manager
@@ -10,11 +17,13 @@
 - Detection of Homebrew Cask
 
 **Updated :**
+
 - Color in the heading() function
 
 ## [0.0.5] (January 24 2021)
 
 **Added :**
+
 - Homebrew package manager
 - Homebrew Cask
 - Zsh autosuggestions
