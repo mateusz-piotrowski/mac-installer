@@ -5,6 +5,7 @@
 **Added :**
 
 - Visual Studio Code app
+- Detection of Xcode Command Line Tools installation
 
 ## [0.0.6] (January 25 2021)
 

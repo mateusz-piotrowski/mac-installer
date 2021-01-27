@@ -17,8 +17,12 @@ heading () {
 
 title
 
-heading "Installing Xcode Command Line Tools ..."
-xcode-select --install
+if [ ! -d "xcode-select --install" ]; then
+  printf "\n$(tput setaf 2)# Xcode Command Line Tools already installed.$(tput sgr0)\n"
+else
+  heading "Installing Xcode Command Line Tools ..."
+  xcode-select --install
+fi
 
 heading "Installing Homebrew package manager ..."
 if [ ! -d "/usr/local/Homebrew" ]; then
