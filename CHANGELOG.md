@@ -6,6 +6,9 @@
 
 - Docker platform
 
+**Updated :**
+- Rename project to: The Mac Installer
+
 ## [0.0.7] (January 27 2021)
 
 **Added :**

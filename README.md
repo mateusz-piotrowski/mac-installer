@@ -1,4 +1,4 @@
-# The MacBook Installer
+# The Mac Installer
 
 ## Description
 
@@ -17,7 +17,7 @@ The project has been created to develop Z-Shell script to automate development e
 Run the following command from Terminal app to install packages.
 
 ```zsh
-$ ./macbook-installer.zsh
+$ ./mac-installer.zsh
 ```
 
 ## Components
