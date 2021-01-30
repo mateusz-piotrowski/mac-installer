@@ -5,7 +5,7 @@
 title () {
   echo ""
   echo "# = = = = = = = = = = = = "
-  printf "#$(tput setaf 4) The MacBook Installer$(tput sgr0)\n"
+  printf "#$(tput setaf 4) The Mac Installer$(tput sgr0)\n"
   echo "# = = = = = = = = = = = = "
 }
 
@@ -35,7 +35,7 @@ if [ ! -d "/usr/local/Homebrew/Library/Homebrew/cask" ]; then
 fi
 
 heading "Installing essential packages ..."
-brew install zsh-autosuggestions wget mc
+brew install zsh-autosuggestions wget curl mc
 
 heading "Installing Oh My Zsh ..."
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
