@@ -7,6 +7,7 @@
 - Docker platform
 - Curl app
 - Htop app
+- Signal app
 
 **Updated :**
 
