@@ -6,6 +6,7 @@
 
 - Docker platform
 - Curl app
+- Htop app
 
 **Updated :**
 
