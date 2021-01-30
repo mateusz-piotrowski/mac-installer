@@ -65,3 +65,6 @@ brew install --cask visual-studio-code
 
 heading "Installing Dash app ..."
 brew install --cask dash
+
+heading "Installing Docker platform ..."
+brew install --cask docker

@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.8] (January 30 2021)
+
+**Added :**
+
+- Docker platform
+
 ## [0.0.7] (January 27 2021)
 
 **Added :**
