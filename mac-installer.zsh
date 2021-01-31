@@ -35,7 +35,10 @@ if [ ! -d "/usr/local/Homebrew/Library/Homebrew/cask" ]; then
 fi
 
 heading "Installing essential packages ..."
-brew install zsh-autosuggestions wget curl htop mc
+brew install zsh-autosuggestions wget curl
+
+heading "Installing tools ..."
+brew install htop mc
 
 heading "Installing Oh My Zsh ..."
 if [ ! -d "$HOME/.oh-my-zsh" ]; then

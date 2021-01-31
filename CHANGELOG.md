@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.9] (January 31 2021)
+
+**Changed :**
+
+- Move htop and mc apps to 'Tools' entry
+
 ## [0.0.8] (January 30 2021)
 
 **Added :**
