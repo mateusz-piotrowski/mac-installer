@@ -1,10 +1,18 @@
 # The Changelog
 
+## [0.0.10] (February 19 2021)
+
+**Updated :**
+
+- CHANGELOG.md file style
+
+
 ## [0.0.9] (January 31 2021)
 
 **Changed :**
 
 - Move htop and mc apps to 'Tools' entry
+
 
 ## [0.0.8] (January 30 2021)
 
@@ -19,12 +27,14 @@
 
 - Rename project to: The Mac Installer
 
+
 ## [0.0.7] (January 27 2021)
 
 **Added :**
 
 - Visual Studio Code app
 - Detection of Xcode Command Line Tools installation
+
 
 ## [0.0.6] (January 25 2021)
 
@@ -39,6 +49,7 @@
 **Updated :**
 
 - Color in the heading() function
+
 
 ## [0.0.5] (January 24 2021)
 
