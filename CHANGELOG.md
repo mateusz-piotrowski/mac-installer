@@ -2,6 +2,10 @@
 
 ## [0.0.10] (February 19 2021)
 
+**Added :**
+
+- Discord app
+
 **Updated :**
 
 - CHANGELOG.md file style

@@ -74,3 +74,6 @@ brew install --cask docker
 
 heading "Installing Signal app ..."
 brew install --cask signal
+
+heading "Installing Discord app ..."
+brew install --cask discord
