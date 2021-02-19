@@ -72,6 +72,9 @@ brew install --cask dash
 heading "Installing Docker platform ..."
 brew install --cask docker
 
+heafing "Installing Teams app ..."
+brew install --cask microsoft-teams
+
 heading "Installing Slack app ..."
 brew install --cask slack
 
