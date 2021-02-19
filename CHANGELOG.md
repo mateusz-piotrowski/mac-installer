@@ -4,9 +4,9 @@
 
 **Added :**
 
-- Discord app
 - Teams app
 - Slack app
+- Discord app
 
 **Updated :**
 
