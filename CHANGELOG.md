@@ -5,6 +5,7 @@
 **Added :**
 
 - Discord app
+- Slack app
 
 **Updated :**
 
