@@ -75,7 +75,7 @@ brew install --cask docker
 heading "Installing Basecamp app ..."
 brew install --cask basecamp
 
-heafing "Installing Teams app ..."
+heading "Installing Teams app ..."
 brew install --cask microsoft-teams
 
 heading "Installing Slack app ..."

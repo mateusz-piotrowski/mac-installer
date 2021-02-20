@@ -9,6 +9,7 @@
 **Fixed :**
 
 - Detection of Xcode Command Line Tools
+- Triggering heading() function for Teams app
 
 
 ## [0.0.10] (February 19 2021)
