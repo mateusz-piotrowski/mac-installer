@@ -6,6 +6,10 @@
 
 - Basecamp app
 
+**Fixed :**
+
+- Detection of Xcode Command Line Tools
+
 
 ## [0.0.10] (February 19 2021)
 
