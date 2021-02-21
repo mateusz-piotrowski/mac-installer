@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.12] (February 21 2021)
+
+**Updated :**
+
+- README.md file
+
 ## [0.0.11] (February 20 2021)
 
 **Added :**

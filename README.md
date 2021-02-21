@@ -22,9 +22,10 @@ $ ./mac-installer.zsh
 
 ## Components
 
-- Homebrew
-- Homebrew Cask
-- Oh My Zsh
+- Xcode Command Line Tools
+- [Homebrew](https://brew.sh)
+- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
+- [Oh My Zsh](https://ohmyz.sh)
 
 ## Contributor
 
