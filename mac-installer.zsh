@@ -86,3 +86,6 @@ brew install --cask signal
 
 heading "Installing Discord app ..."
 brew install --cask discord
+
+heading "Installing TeX [Basic] suite ..."
+brew install basictex

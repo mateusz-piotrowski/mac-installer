@@ -1,5 +1,10 @@
 # The Changelog
 
+## [0.0.13] (February 24 2021)
+
+**Added :**
+- TeX [Basic] suite
+
 ## [0.0.12] (February 21 2021)
 
 **Updated :**
