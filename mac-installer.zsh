@@ -89,3 +89,6 @@ brew install --cask discord
 
 heading "Installing TeX [Basic] suite ..."
 brew install basictex
+
+heading "Installing AnyDesk app ..."
+brew install --cask anydesk

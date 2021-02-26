@@ -1,15 +1,23 @@
 # The Changelog
 
+## [0.0.14] (February 26 2021)
+
+**Added :**
+- AnyDesk app
+
+
 ## [0.0.13] (February 24 2021)
 
 **Added :**
 - TeX [Basic] suite
+
 
 ## [0.0.12] (February 21 2021)
 
 **Updated :**
 
 - README.md file
+
 
 ## [0.0.11] (February 20 2021)
 
