@@ -1,5 +1,10 @@
 # The Changelog
 
+## [0.0.15] (February 27 2021)
+
+**Added :**
+- Remote Desktop Manager [Free] app
+
 ## [0.0.14] (February 26 2021)
 
 **Added :**

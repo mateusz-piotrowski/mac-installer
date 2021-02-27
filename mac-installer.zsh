@@ -92,3 +92,6 @@ brew install basictex
 
 heading "Installing AnyDesk app ..."
 brew install --cask anydesk
+
+heading "Installing Remote Desktop Manager [Free] app ..."
+brew install --cask remote-desktop-manager-free
