@@ -48,6 +48,9 @@ fi
 heading "Installing Neovim app ..."
 brew install neovim
 
+heading "Installing iTerm2 app ..."
+brew install --cask iterm2
+
 heading "Installing Emacs app ..."
 brew tap railwaycat/emacsmacport
 brew install emacs-mac --with-modules
