@@ -4,6 +4,7 @@
 
 **Added :**
 - iTerm2 app
+- Detection of Homebrew Package Manager
 
 **Updated:**
 - README.md file

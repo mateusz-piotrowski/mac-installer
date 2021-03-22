@@ -24,8 +24,10 @@ else
   xcode-select --install
 fi
 
-heading "Installing Homebrew package manager ..."
-if [ ! -d "/usr/local/Homebrew" ]; then
+if [ -d "/usr/local/Homebrew" ]; then
+  printf "\n$(tput setaf 2)# Homebrew Package Manager already installed.$(tput sgr0)\n"
+else
+  heading "Installing Homebrew package manager ..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
