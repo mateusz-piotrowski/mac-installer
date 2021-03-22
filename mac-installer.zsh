@@ -31,8 +31,10 @@ else
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-heading "Installing Homebrew Cask ..."
-if [ ! -d "/usr/local/Homebrew/Library/Homebrew/cask" ]; then
+if [ -d "/usr/local/Homebrew/Library/Homebrew/cask" ]; then
+  printf "\n$(tput setaf 2)# Homebrew Cask already installed.$(tput sgr0)\n"
+else
+  heading "Installing Homebrew Cask ..."
   brew cask
 fi
 

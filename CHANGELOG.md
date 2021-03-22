@@ -5,6 +5,7 @@
 **Added :**
 - iTerm2 app
 - Detection of Homebrew Package Manager
+- Detection of Homebrew Cask
 
 **Updated:**
 - README.md file
