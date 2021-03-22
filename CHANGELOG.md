@@ -5,6 +5,9 @@
 **Added :**
 - iTerm2 app
 
+**Updated:**
+- README.md file
+
 
 ## [0.0.15] (February 27 2021)
 

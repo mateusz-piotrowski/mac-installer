@@ -26,6 +26,7 @@ $ ./mac-installer.zsh
 - [Homebrew](https://brew.sh)
 - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
 - [Oh My Zsh](https://ohmyz.sh)
+- [iTerm2](https://iterm2.com)
 
 ## Contributor
 
