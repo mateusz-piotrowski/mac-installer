@@ -48,8 +48,16 @@ fi
 
 # - - - - - - - - - - - - - - - - -
 
-heading "Installing essential packages ..."
-brew install zsh-autosuggestions wget curl
+if [ ! -d "/usr/local/Cellar/zsh-autosuggestions" ]; then
+  printf "\n$(tput setaf 2)# ZSH-Autosuggetions package not found.$(tput sgr0)\n"
+  elif [ ! -d "/usr/local/Cellar/wget" ]; then
+    printf "\n$(tput setaf 2)# Wget package not found.$(tput sgr0)\n"
+      elif [ -d "/usr/local/Cellar/curl" ]; then
+        printf "\n$(tput setaf 2)# The Essential packages already installed.$(tput sgr0)\n"
+else
+  heading "Installing essential packages ..."
+  brew install zsh-autosuggestions wget curl
+fi
 
 # - - - - - - - - - - - - - - - - -
 

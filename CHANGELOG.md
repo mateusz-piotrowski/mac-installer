@@ -4,6 +4,7 @@
 
 **Added :**
 - Divide commands into separate sections
+- Detection of Essential packages
 
 
 ## [0.0.16] (March 22 2021)
