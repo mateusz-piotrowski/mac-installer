@@ -61,8 +61,14 @@ fi
 
 # - - - - - - - - - - - - - - - - -
 
-heading "Installing tools ..."
-brew install htop mc
+if [ ! -d "/usr/local/Cellar/htop" ]; then
+  printf "\n$(tput setaf 1)# Htop package not found.$(tput sgr0)\n"
+    elif [ -d "/usr/local/Cellar/midnight-commander" ]; then
+      printf "\n$(tput setaf 2)# Tools packages already installed.$(tput sgr0)\n"
+else
+  heading "Installing tools ..."
+  brew install htop mc
+fi
 
 # - - - - - - - - - - - - - - - - -
 
