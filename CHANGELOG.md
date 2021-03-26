@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.17] (March 26 2021)
+
+**Added :**
+- Divide commands into separate sections
+
+
 ## [0.0.16] (March 22 2021)
 
 **Added :**
