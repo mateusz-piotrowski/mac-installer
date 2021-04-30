@@ -21,7 +21,7 @@ title
 
 # - - - - - - - - - - - - - - - - -
 
-if [ ! -x "$(command xcode-select --install)" ]; then
+if [ -d "/Library/Developer" ]; then
   printf "\n$(tput setaf 2)# Xcode Command Line Tools already installed.$(tput sgr0)\n"
 else
   heading "Installing Xcode Command Line Tools ..."

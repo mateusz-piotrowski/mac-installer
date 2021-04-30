@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.19] (April 30 2021)
+
+**Updated :**
+- Detection of XCode Command Line Tools
+
+
 ## [0.0.18] (April 04 2021)
 
 **Updated :**
