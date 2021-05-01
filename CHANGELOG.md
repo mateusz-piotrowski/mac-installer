@@ -5,6 +5,7 @@
 **Added :**
 
 - README.md
+- empty mac-installer.sh
 
 
 ## [0.0.1] (May 1 2021)
