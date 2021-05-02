@@ -21,7 +21,7 @@ $ ./mac-installer.sh
 ```
 
 ## Components
-
+- [Xcode Command Line Tools](https://developer.apple.com/download/more/?=xcode)
 
 ## Contributor
 

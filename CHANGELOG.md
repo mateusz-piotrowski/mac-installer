@@ -6,6 +6,7 @@
 
 - title() function
 - heading() function
+- Xcode Command Line Tools
 
 
 ## [0.0.2] (May 1 2021)
