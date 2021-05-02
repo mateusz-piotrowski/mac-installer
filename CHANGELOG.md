@@ -5,6 +5,7 @@
 **Added :**
 
 - title() function
+- heading() function
 
 
 ## [0.0.2] (May 1 2021)
