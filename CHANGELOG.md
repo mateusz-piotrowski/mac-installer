@@ -6,6 +6,9 @@
 
 - Homebrew package manager
 - Homebrew Cask
+- Bash-Completion
+- Wget
+- Curl
 
 
 ## [0.0.3] (May 2 2021)
