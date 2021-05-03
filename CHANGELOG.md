@@ -11,6 +11,7 @@
 - Curl
 - Midnight Commander
 - Htop
+- Dash
 
 
 ## [0.0.3] (May 2 2021)

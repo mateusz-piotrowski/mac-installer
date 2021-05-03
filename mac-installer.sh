@@ -97,10 +97,26 @@ else
 fi
 
 if [[ ! $is_htop_exist -eq "0" ]]; then
-  printf "$(tput setaf 2)# Htop already installed.$(tput sgr0)\n\n"
+  printf "$(tput setaf 2)# Htop already installed.$(tput sgr0)\n"
 else
   heading "Installing Htop ..."
   brew install htop
+fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Caskroom/Dash" ]; then
+  printf "\n$(tput setaf 1)# Dash not found.$(tput sgr0)"
+  is_dash_exist=0
+else
+  is_dash_exist=1
+fi
+
+if [[ ! $is_dash_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Dash already installed.$(tput sgr0)\n\n"
+else
+  heading "Installing Dash ..."
+  brew install --cask dash
 fi
 
 # - - - - - - - - - - - - - - - - -
