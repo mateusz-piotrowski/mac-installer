@@ -68,7 +68,23 @@ if [[ $is_bash_completion_exist -eq "0" && is_wget_exist -eq "0" && is_curl_exis
 else
   printf "$(tput setaf 2)# Bash-Completion already installed.$(tput sgr0)\n"
   printf "$(tput setaf 2)# Wget already installed.$(tput sgr0)\n"
-  printf "$(tput setaf 2)# Curl already installed.$(tput sgr0)\n\n"
+  printf "$(tput setaf 2)# Curl already installed.$(tput sgr0)\n"
+fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Cellar/midnight-commander" ]; then
+  printf "\n$(tput setaf 1)# Midnight Commander not found.$(tput sgr0)"
+  is_mc_exist=0
+else
+  is_mc_exist=1
+fi
+
+if [[ ! $is_mc_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Midnight Commander already installed.$(tput sgr0)\n"
+else
+  heading "Installing Midnight Commander ..."
+  brew install mc
 fi
 
 # - - - - - - - - - - - - - - - - -

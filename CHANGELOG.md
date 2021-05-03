@@ -9,6 +9,7 @@
 - Bash-Completion
 - Wget
 - Curl
+- Midnight Commander
 
 
 ## [0.0.3] (May 2 2021)
