@@ -1,5 +1,12 @@
 # The Changelog
 
+## [0.0.4] (May 3 2021)
+
+**Added :**
+
+- Homebrew package manager
+
+
 ## [0.0.3] (May 2 2021)
 
 **Added :**
