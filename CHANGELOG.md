@@ -10,6 +10,7 @@
 - Wget
 - Curl
 - Midnight Commander
+- Htop
 
 
 ## [0.0.3] (May 2 2021)

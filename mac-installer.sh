@@ -88,3 +88,19 @@ else
 fi
 
 # - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Cellar/htop" ]; then
+  printf "\n$(tput setaf 1)# Htop not found.$(tput sgr0)"
+  is_htop_exist=0
+else
+  is_htop_exist=1
+fi
+
+if [[ ! $is_htop_exist -eq "0" ]]; then
+  printf "$(tput setaf 2)# Htop already installed.$(tput sgr0)\n\n"
+else
+  heading "Installing Htop ..."
+  brew install htop
+fi
+
+# - - - - - - - - - - - - - - - - -
