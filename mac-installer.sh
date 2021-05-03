@@ -31,7 +31,8 @@ fi
 # - - - - - - - - - - - - - - - - -
 
 if [ -d "/usr/local/Homebrew" ]; then
-  printf "$(tput setaf 2)# Homebrew Package Manager already installed.$(tput sgr0)\n\n"
+  printf "$(tput setaf 2)# Homebrew Package Manager already installed.$(tput sgr0)\n"
+  printf "$(tput setaf 2)# Homebrew Cask already installed.$(tput sgr0)\n\n"
 else
   heading "Installing Homebrew package manager ..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

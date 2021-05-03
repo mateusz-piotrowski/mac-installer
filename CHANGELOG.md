@@ -5,6 +5,7 @@
 **Added :**
 
 - Homebrew package manager
+- Homebrew Cask
 
 
 ## [0.0.3] (May 2 2021)

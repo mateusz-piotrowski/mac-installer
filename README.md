@@ -23,6 +23,7 @@ $ ./mac-installer.sh
 ## Components
 - [Xcode Command Line Tools](https://developer.apple.com/download/more/?=xcode)
 - [Homebrew](https://brew.sh)
+- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
 
 ## Contributor
 
