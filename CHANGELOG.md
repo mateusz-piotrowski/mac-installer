@@ -1,5 +1,12 @@
 # The Changelog
 
+## [0.0.5] (May 4 2021)
+
+**Added :**
+
+- CotEditor
+
+
 ## [0.0.4] (May 3 2021)
 
 **Added :**

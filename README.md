@@ -24,6 +24,7 @@ $ ./mac-installer.sh
 - [Xcode Command Line Tools](https://developer.apple.com/download/more/?=xcode)
 - [Homebrew](https://brew.sh)
 - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
+- [CotEditor](https://github.com/coteditor/CotEditor)
 
 ## Contributor
 
