@@ -1,5 +1,12 @@
 # The Changelog
 
+## [0.0.6] (May 8 2021)
+
+**Added :**
+
+- TextMate
+
+
 ## [0.0.5] (May 4 2021)
 
 **Added :**
