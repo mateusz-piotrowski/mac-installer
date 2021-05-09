@@ -1,5 +1,12 @@
 # The Changelog
 
+## [0.0.7] (May 9 2021)
+
+**Added :**
+
+- Visual Studio Code
+
+
 ## [0.0.6] (May 8 2021)
 
 **Added :**
@@ -51,4 +58,3 @@
 **Added :**
 
 - LICENSE
-

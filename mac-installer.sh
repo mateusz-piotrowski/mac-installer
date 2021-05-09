@@ -145,10 +145,26 @@ else
 fi
 
 if [[ ! $is_textmate_exist -eq "0" ]]; then
-  printf "\n$(tput setaf 2)# TextMate already installed.$(tput sgr0)\n\n"
+  printf "\n$(tput setaf 2)# TextMate already installed.$(tput sgr0)"
 else
   heading "Installing TextMate ..."
   brew install --cask textmate
+fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Caskroom/Visual-Studio-Code" ]; then
+  printf "\n$(tput setaf 1)# Visual Studio Code not found.$(tput sgr0)"
+  is_visual_studio_code_exist=0
+else
+  is_visual_studio_code_exist=1
+fi
+
+if [[ ! $is_visual_studio_code_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Visual Studio Code already installed.$(tput sgr0)\n\n"
+else
+  heading "Installing Visual Studio Code ..."
+  brew install --cask visual-studio-code
 fi
 
 # - - - - - - - - - - - - - - - - -
