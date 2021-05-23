@@ -1,5 +1,12 @@
 # The Changelog
 
+## [0.0.8] (May 23 2021)
+
+**Added :**
+
+- Ripgrep
+
+
 ## [0.0.7] (May 9 2021)
 
 **Added :**

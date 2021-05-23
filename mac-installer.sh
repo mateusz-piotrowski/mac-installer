@@ -73,6 +73,22 @@ fi
 
 # - - - - - - - - - - - - - - - - -
 
+if [ ! -d "/usr/local/Cellar/ripgrep" ]; then
+  printf "\n$(tput setaf 1)# Ripgrep not found.$(tput sgr0)"
+  is_ripgrep_exist=0
+else
+  is_ripgrep_exist=1
+fi
+
+if [[ ! $is_ripgrep_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Ripgrep already installed.$(tput sgr0)\n"
+else
+  heading "Installing Ripgrep ..."
+  brew install ripgrep
+fi
+
+# - - - - - - - - - - - - - - - - -
+
 if [ ! -d "/usr/local/Cellar/midnight-commander" ]; then
   printf "\n$(tput setaf 1)# Midnight Commander not found.$(tput sgr0)"
   is_mc_exist=0
