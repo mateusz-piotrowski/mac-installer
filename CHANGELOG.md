@@ -5,6 +5,7 @@
 **Added :**
 
 - Ripgrep
+- Coreutils
 
 
 ## [0.0.7] (May 9 2021)
