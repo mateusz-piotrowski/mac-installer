@@ -8,6 +8,9 @@
 - Coreutils
 - Fd
 
+**Updated :**
+
+- CHANGELOG.md layout
 
 ## [0.0.7] (May 9 2021)
 
@@ -15,20 +18,17 @@
 
 - Visual Studio Code
 
-
 ## [0.0.6] (May 8 2021)
 
 **Added :**
 
 - TextMate
 
-
 ## [0.0.5] (May 4 2021)
 
 **Added :**
 
 - CotEditor
-
 
 ## [0.0.4] (May 3 2021)
 
@@ -43,7 +43,6 @@
 - Htop
 - Dash
 
-
 ## [0.0.3] (May 2 2021)
 
 **Added :**
@@ -52,7 +51,6 @@
 - heading() function
 - Xcode Command Line Tools
 
-
 ## [0.0.2] (May 1 2021)
 
 **Added :**
@@ -60,7 +58,6 @@
 - README.md
 - empty mac-installer.sh
 - shell declaration
-
 
 ## [0.0.1] (May 1 2021)
 
