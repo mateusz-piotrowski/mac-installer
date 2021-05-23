@@ -97,10 +97,26 @@ else
 fi
 
 if [[ ! $is_coreutils_exist -eq "0" ]]; then
-  printf "\n$(tput setaf 2)# Coreutils already installed.$(tput sgr0)\n"
+  printf "\n$(tput setaf 2)# Coreutils already installed.$(tput sgr0)"
 else
   heading "Installing Coreutils ..."
   brew install coreutils
+fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Cellar/fd" ]; then
+  printf "\n$(tput setaf 1)# Fd not found.$(tput sgr0)"
+  is_fd_exist=0
+else
+  is_fd_exist=1
+fi
+
+if [[ ! $is_fd_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Fd already installed.$(tput sgr0)\n"
+else
+  heading "Installing Fd ..."
+  brew install fd
 fi
 
 # - - - - - - - - - - - - - - - - -

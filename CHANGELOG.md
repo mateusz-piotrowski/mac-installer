@@ -6,6 +6,7 @@
 
 - Ripgrep
 - Coreutils
+- Fd
 
 
 ## [0.0.7] (May 9 2021)
