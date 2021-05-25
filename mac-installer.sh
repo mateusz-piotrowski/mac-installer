@@ -32,7 +32,7 @@ fi
 
 if [ -d "/usr/local/Homebrew" ]; then
   printf "$(tput setaf 2)# Homebrew Package Manager already installed.$(tput sgr0)\n"
-  printf "$(tput setaf 2)# Homebrew Cask already installed.$(tput sgr0)\n\n"
+  printf "$(tput setaf 2)# Homebrew Cask already installed.$(tput sgr0)\n"
 else
   heading "Installing Homebrew package manager ..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -47,12 +47,31 @@ else
   is_bash_completion_exist=1
 fi
 
+if [[ ! $is_bash_completion_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Bash Completion already installed.$(tput sgr0)"
+else
+  heading "Installing Bash Completion ..."
+  brew install bash-completion
+  echo "[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"" >> ~/.bash_profile
+fi
+
+# - - - - - - - - - - - - - - - - -
+
 if [ ! -d "/usr/local/Cellar/wget" ]; then
   printf "\n$(tput setaf 2)# Wget package not found.$(tput sgr0)"
   is_wget_exist=0
 else
   is_wget_exist=1
 fi
+
+if [[ ! $is_wget_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Wget already installed.$(tput sgr0)"
+else
+  heading "Installing Wget ..."
+  brew install wget
+fi
+
+# - - - - - - - - - - - - - - - - -
 
 if [ ! -d "/usr/local/Cellar/curl" ]; then
   printf "\n$(tput setaf 2)# Curl package not found.$(tput sgr0)"
@@ -61,14 +80,11 @@ else
   is_curl_exist=1
 fi
 
-if [[ $is_bash_completion_exist -eq "0" && is_wget_exist -eq "0" && is_curl_exist -eq "0" ]]; then
-  heading "Installing essential packages ..."
-  brew install bash-completion wget curl
-  echo "[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"" >> ~/.bash_profile
+if [[ ! $is_curl_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Curl already installed.$(tput sgr0)\n"
 else
-  printf "$(tput setaf 2)# Bash-Completion already installed.$(tput sgr0)\n"
-  printf "$(tput setaf 2)# Wget already installed.$(tput sgr0)\n"
-  printf "$(tput setaf 2)# Curl already installed.$(tput sgr0)\n"
+  heading "Installing Curl ..."
+  brew install curl
 fi
 
 # - - - - - - - - - - - - - - - - -

@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.9] (May 25 2021)
+
+**Changed :**
+
+- Divide essentials packages group to separate commands
+
 ## [0.0.8] (May 23 2021)
 
 **Added :**
