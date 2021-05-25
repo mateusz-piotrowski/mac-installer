@@ -2,6 +2,10 @@
 
 ## [0.0.9] (May 25 2021)
 
+**Added :**
+
+- Git
+
 **Changed :**
 
 - Divide essentials packages group to separate commands

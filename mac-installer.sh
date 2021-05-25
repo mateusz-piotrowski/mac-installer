@@ -40,6 +40,22 @@ fi
 
 # - - - - - - - - - - - - - - - - -
 
+if [ ! -d "/usr/local/Cellar/git" ]; then
+  printf "\n$(tput setaf 1)# Git package not found.$(tput sgr0)"
+  is_git_exist=0
+else
+  is_git_exist=1
+fi
+
+if [[ ! $is_git_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Git already installed.$(tput sgr0)"
+else
+  heading "Installing Git ..."
+  brew install git
+fi
+
+# - - - - - - - - - - - - - - - - -
+
 if [ ! -d "/usr/local/Cellar/bash-completion" ]; then
   printf "\n$(tput setaf 2)# Bash-Completion package not found.$(tput sgr0)"
   is_bash_completion_exist=0
