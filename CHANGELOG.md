@@ -6,6 +6,10 @@
 
 - Git
 
+**Updated :**
+
+- README.md
+
 **Changed :**
 
 - Divide essentials packages group to separate commands
