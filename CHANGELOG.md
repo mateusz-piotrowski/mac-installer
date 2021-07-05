@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.10] (July 05 2021)
+
+**Added :**
+
+- Zsh
+
 ## [0.0.9] (May 25 2021)
 
 **Added :**

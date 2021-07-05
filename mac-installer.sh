@@ -177,10 +177,26 @@ else
 fi
 
 if [[ ! $is_htop_exist -eq "0" ]]; then
-  printf "$(tput setaf 2)# Htop already installed.$(tput sgr0)\n"
+  printf "$(tput setaf 2)# Htop already installed.$(tput sgr0)\n\n"
 else
   heading "Installing Htop ..."
   brew install htop
+fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Cellar/zsh" ]; then
+  printf "\n$(tput setaf 1)# Zsh not found.$(tput sgr0)"
+  is_zsh_exist=0
+else
+  is_zsh_exist=1
+fi
+
+if [[ ! $is_zsh_exist -eq "0" ]]; then
+  printf "$(tput setaf 2)# Zsh already installed.$(tput sgr0)\n"
+else
+  heading "Installing Zsh ..."
+  brew install zsh
 fi
 
 # - - - - - - - - - - - - - - - - -
