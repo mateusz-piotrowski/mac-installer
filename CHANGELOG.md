@@ -5,6 +5,7 @@
 **Added :**
 
 - Zsh
+- Zsh-Completion
 
 ## [0.0.9] (May 25 2021)
 
