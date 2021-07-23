@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.11] (July 24 2021)
+
+**Added :**
+
+- GnuPG
+
 ## [0.0.10] (July 05 2021)
 
 **Added :**

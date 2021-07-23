@@ -207,11 +207,28 @@ else
 fi
 
 if [[ ! $is_zsh_completion_exist -eq "0" ]]; then
-  printf "$(tput setaf 2)# Zsh-Completion already installed.$(tput sgr0)\n"
+  printf "$(tput setaf 2)# Zsh-Completion already installed.$(tput sgr0)\n\n"
 else
   heading "Installing Zsh-Completion ..."
   brew install zsh-completion
 fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Cellar/gnupg" ]; then
+  printf "\n$(tput setaf 1)# GnuPG not found.$(tput sgr0)"
+  is_gnupg_exist=0
+else
+  is_gnupg_exist=1
+fi
+
+if [[ ! $is_gnupg_exist -eq "0" ]]; then
+  printf "$(tput setaf 2)# GnuPG already installed.$(tput sgr0)\n"
+else
+  heading "Installing GnuPG ..."
+  brew install gnupg
+fi
+
 
 
 # - - - - - - - - - - - - - - - - -
