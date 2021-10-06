@@ -5,6 +5,7 @@
 **Removed :**
 
 - CotEditor
+- TextMate
 
 ## [0.0.11] (July 24 2021)
 

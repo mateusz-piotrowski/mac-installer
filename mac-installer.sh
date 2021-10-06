@@ -229,8 +229,6 @@ else
   brew install gnupg
 fi
 
-
-
 # - - - - - - - - - - - - - - - - -
 
 if [ ! -d "/usr/local/Caskroom/Dash" ]; then
@@ -245,22 +243,6 @@ if [[ ! $is_dash_exist -eq "0" ]]; then
 else
   heading "Installing Dash ..."
   brew install --cask dash
-fi
-
-# - - - - - - - - - - - - - - - - -
-
-if [ ! -d "/usr/local/Caskroom/TextMate" ]; then
-  printf "\n$(tput setaf 1)# TextMate not found.$(tput sgr0)"
-  is_textmate_exist=0
-else
-  is_textmate_exist=1
-fi
-
-if [[ ! $is_textmate_exist -eq "0" ]]; then
-  printf "\n$(tput setaf 2)# TextMate already installed.$(tput sgr0)"
-else
-  heading "Installing TextMate ..."
-  brew install --cask textmate
 fi
 
 # - - - - - - - - - - - - - - - - -
