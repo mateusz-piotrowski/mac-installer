@@ -1,60 +1,66 @@
 # The Changelog
 
+## [0.0.20] (October 06 2021)
+
+**Updated :**
+
+- CHANGELOG.md file layout
+
 ## [0.0.19] (April 30 2021)
 
 **Updated :**
-- Detection of XCode Command Line Tools
 
+- Detection of XCode Command Line Tools
 
 ## [0.0.18] (April 04 2021)
 
 **Updated :**
-- README.md file
 
+- README.md file
 
 ## [0.0.17] (March 26 2021)
 
 **Added :**
+
 - Divide commands into separate sections
 - Detection of Essential packages
 - Detection of Tools packages
 
-
 ## [0.0.16] (March 22 2021)
 
 **Added :**
+
 - iTerm2 app
 - Detection of Homebrew Package Manager
 - Detection of Homebrew Cask
 
 **Updated:**
-- README.md file
 
+- README.md file
 
 ## [0.0.15] (February 27 2021)
 
 **Added :**
-- Remote Desktop Manager [Free] app
 
+- Remote Desktop Manager [Free] app
 
 ## [0.0.14] (February 26 2021)
 
 **Added :**
-- AnyDesk app
 
+- AnyDesk app
 
 ## [0.0.13] (February 24 2021)
 
 **Added :**
-- TeX [Basic] suite
 
+- TeX [Basic] suite
 
 ## [0.0.12] (February 21 2021)
 
 **Updated :**
 
 - README.md file
-
 
 ## [0.0.11] (February 20 2021)
 
@@ -66,7 +72,6 @@
 
 - Detection of Xcode Command Line Tools
 - Triggering heading() function for Teams app
-
 
 ## [0.0.10] (February 19 2021)
 
@@ -80,13 +85,11 @@
 
 - CHANGELOG.md file style
 
-
 ## [0.0.9] (January 31 2021)
 
 **Changed :**
 
 - Move htop and mc apps to 'Tools' entry
-
 
 ## [0.0.8] (January 30 2021)
 
@@ -101,14 +104,12 @@
 
 - Rename project to: The Mac Installer
 
-
 ## [0.0.7] (January 27 2021)
 
 **Added :**
 
 - Visual Studio Code app
 - Detection of Xcode Command Line Tools installation
-
 
 ## [0.0.6] (January 25 2021)
 
@@ -123,7 +124,6 @@
 **Updated :**
 
 - Color in the heading() function
-
 
 ## [0.0.5] (January 24 2021)
 
@@ -145,7 +145,6 @@
 - Readme file
 - heading() function
 
-
 ## [0.0.4] (January 09 2021)
 
 **Added :**
@@ -154,20 +153,17 @@
 - Xcode Command Line Tools
 - Colorize the heading() function
 
-
 ## [0.0.3] (January 08 2021)
 
 **Added :**
 
 - title() function
 
-
 ## [0.0.2] (January 07 2021)
 
 **Added :**
 
 - Shell declaration
-
 
 ## [0.0.1] (January 03 2021)
 
