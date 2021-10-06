@@ -17,7 +17,7 @@ The project has been created to develop a Bash script to automate the developmen
 Run the following command from the Terminal app to start setup.
 
 ```bash
-./mac-installer.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mateusz-piotrowski/mac-installer/master/mac-installer.sh)"
 ```
 
 ## Components
