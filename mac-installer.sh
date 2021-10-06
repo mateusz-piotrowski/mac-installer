@@ -249,22 +249,6 @@ fi
 
 # - - - - - - - - - - - - - - - - -
 
-if [ ! -d "/usr/local/Caskroom/CotEditor" ]; then
-  printf "\n$(tput setaf 1)# CotEditor not found.$(tput sgr0)"
-  is_coteditor_exist=0
-else
-  is_coteditor_exist=1
-fi
-
-if [[ ! $is_coteditor_exist -eq "0" ]]; then
-  printf "\n$(tput setaf 2)# CotEditor already installed.$(tput sgr0)"
-else
-  heading "Installing CotEditor ..."
-  brew install --cask coteditor
-fi
-
-# - - - - - - - - - - - - - - - - -
-
 if [ ! -d "/usr/local/Caskroom/TextMate" ]; then
   printf "\n$(tput setaf 1)# TextMate not found.$(tput sgr0)"
   is_textmate_exist=0
