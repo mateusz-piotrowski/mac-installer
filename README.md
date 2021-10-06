@@ -17,7 +17,7 @@ The project has been created to develop a Bash script to automate the developmen
 Run the following command from the Terminal app to start setup.
 
 ```bash
-./mac-installer.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mateusz-piotrowski/mac-installer/basic/mac-installer.sh)"
 ```
 
 ## Components
@@ -27,8 +27,6 @@ Run the following command from the Terminal app to start setup.
 - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
 - [Dash](https://kapeli.com/dash)
 - [Visual Studio Code](https://code.visualstudio.com)
-- [TextMate](https://macromates.com)
-- [CotEditor](https://github.com/coteditor/CotEditor)
 
 ## Contributor
 

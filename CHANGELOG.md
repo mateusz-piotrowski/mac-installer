@@ -2,6 +2,10 @@
 
 ## [0.0.12] (October 06 2021)
 
+**Updated :**
+
+- README.md
+
 **Removed :**
 
 - CotEditor
