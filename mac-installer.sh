@@ -11,7 +11,7 @@ title () {
 
 # - - - - - - - - - - - - - - - - -
 
-heading () {
+installing () {
   printf "\n$(tput setaf 6)# $1 $(tput sgr0)\n\n"
 }
 
@@ -24,7 +24,7 @@ title
 if [ -d "/Library/Developer" ]; then
   printf "\n$(tput setaf 2)# Xcode Command Line Tools already installed.$(tput sgr0)\n"
 else
-  heading "Installing Xcode Command Line Tools ..."
+  installing "Installing Xcode Command Line Tools ..."
   xcode-select --install
 fi
 
@@ -34,7 +34,7 @@ if [ -d "/usr/local/Homebrew" ]; then
   printf "$(tput setaf 2)# Homebrew Package Manager already installed.$(tput sgr0)\n"
   printf "$(tput setaf 2)# Homebrew Cask already installed.$(tput sgr0)\n"
 else
-  heading "Installing Homebrew package manager ..."
+  installing "Installing Homebrew package manager ..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
@@ -50,7 +50,7 @@ fi
 if [[ ! $is_git_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Git already installed.$(tput sgr0)"
 else
-  heading "Installing Git ..."
+  installing "Installing Git ..."
   brew install git
 fi
 
@@ -66,7 +66,7 @@ fi
 if [[ ! $is_bash_completion_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Bash Completion already installed.$(tput sgr0)"
 else
-  heading "Installing Bash Completion ..."
+  installing "Installing Bash Completion ..."
   brew install bash-completion
   echo "[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"" >> ~/.bash_profile
 fi
@@ -83,7 +83,7 @@ fi
 if [[ ! $is_wget_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Wget already installed.$(tput sgr0)"
 else
-  heading "Installing Wget ..."
+  installing "Installing Wget ..."
   brew install wget
 fi
 
@@ -99,7 +99,7 @@ fi
 if [[ ! $is_curl_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Curl already installed.$(tput sgr0)\n"
 else
-  heading "Installing Curl ..."
+  installing "Installing Curl ..."
   brew install curl
 fi
 
@@ -115,7 +115,7 @@ fi
 if [[ ! $is_ripgrep_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Ripgrep already installed.$(tput sgr0)"
 else
-  heading "Installing Ripgrep ..."
+  installing "Installing Ripgrep ..."
   brew install ripgrep
 fi
 
@@ -131,7 +131,7 @@ fi
 if [[ ! $is_coreutils_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Coreutils already installed.$(tput sgr0)"
 else
-  heading "Installing Coreutils ..."
+  installing "Installing Coreutils ..."
   brew install coreutils
 fi
 
@@ -147,7 +147,7 @@ fi
 if [[ ! $is_fd_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Fd already installed.$(tput sgr0)\n"
 else
-  heading "Installing Fd ..."
+  installing "Installing Fd ..."
   brew install fd
 fi
 
@@ -163,7 +163,7 @@ fi
 if [[ ! $is_mc_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Midnight Commander already installed.$(tput sgr0)\n"
 else
-  heading "Installing Midnight Commander ..."
+  installing "Installing Midnight Commander ..."
   brew install mc
 fi
 
@@ -179,7 +179,7 @@ fi
 if [[ ! $is_htop_exist -eq "0" ]]; then
   printf "$(tput setaf 2)# Htop already installed.$(tput sgr0)\n\n"
 else
-  heading "Installing Htop ..."
+  installing "Installing Htop ..."
   brew install htop
 fi
 
@@ -195,7 +195,7 @@ fi
 if [[ ! $is_zsh_exist -eq "0" ]]; then
   printf "$(tput setaf 2)# Zsh already installed.$(tput sgr0)\n"
 else
-  heading "Installing Zsh ..."
+  installing "Installing Zsh ..."
   brew install zsh
 fi
 
@@ -209,7 +209,7 @@ fi
 if [[ ! $is_zsh_completion_exist -eq "0" ]]; then
   printf "$(tput setaf 2)# Zsh-Completion already installed.$(tput sgr0)\n\n"
 else
-  heading "Installing Zsh-Completion ..."
+  installing "Installing Zsh-Completion ..."
   brew install zsh-completion
 fi
 
@@ -225,7 +225,7 @@ fi
 if [[ ! $is_gnupg_exist -eq "0" ]]; then
   printf "$(tput setaf 2)# GnuPG already installed.$(tput sgr0)\n"
 else
-  heading "Installing GnuPG ..."
+  installing "Installing GnuPG ..."
   brew install gnupg
 fi
 
@@ -241,7 +241,7 @@ fi
 if [[ ! $is_dash_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Dash already installed.$(tput sgr0)\n"
 else
-  heading "Installing Dash ..."
+  installing "Installing Dash ..."
   brew install --cask dash
 fi
 
@@ -257,7 +257,7 @@ fi
 if [[ ! $is_textmate_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# TextMate already installed.$(tput sgr0)"
 else
-  heading "Installing TextMate ..."
+  installing "Installing TextMate ..."
   brew install --cask textmate
 fi
 
@@ -273,7 +273,7 @@ fi
 if [[ ! $is_visual_studio_code_exist -eq "0" ]]; then
   printf "\n$(tput setaf 2)# Visual Studio Code already installed.$(tput sgr0)\n\n"
 else
-  heading "Installing Visual Studio Code ..."
+  installing "Installing Visual Studio Code ..."
   brew install --cask visual-studio-code
 fi
 

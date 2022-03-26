@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.14] (March 27 2022)
+
+**Changed :**
+
+- heading() to installing()
+
 ## [0.0.13] (March 26 2022)
 
 **Added :**
