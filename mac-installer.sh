@@ -16,7 +16,7 @@ installing () {
 }
 
 not_found () {
-  printf "\n$(tput setaf 1)# Not found:$(tput setaf 3) $1 $(tput sgr0)\n\n"
+  printf "\n$(tput setaf 1)# Not found:$(tput setaf 3) $1 $(tput sgr0)\n"
 }
 
 # - - - - - - - - - - - - - - - - -
@@ -224,6 +224,13 @@ if [ ! -d "/usr/local/Cellar/fish" ]; then
   is_fish_exist=0
 else
   is_fish_exist=1
+fi
+
+if [[ ! $is_fish_exist -eq "0" ]]; then
+  printf "$(tput setaf 2)# Fish already installed.$(tput sgr0)\n"
+else
+  installing "Installing Fish ..."
+  brew install fish
 fi
 
 # - - - - - - - - - - - - - - - - -
