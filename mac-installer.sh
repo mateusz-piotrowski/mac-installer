@@ -16,7 +16,7 @@ installing () {
 }
 
 not_found () {
-  printf "\n$(tput setaf 1)# $1 $(tput sgr0)\n\n"
+  printf "\n$(tput setaf 1)# Not found:$(tput setaf 3) $1 $(tput sgr0)\n\n"
 }
 
 # - - - - - - - - - - - - - - - - -
@@ -211,10 +211,19 @@ else
 fi
 
 if [[ ! $is_zsh_completion_exist -eq "0" ]]; then
-  printf "$(tput setaf 2)# Zsh-Completion already installed.$(tput sgr0)\n\n"
+  printf "$(tput setaf 2)# Zsh-Completion already installed.$(tput sgr0)\n"
 else
   installing "Installing Zsh-Completion ..."
   brew install zsh-completion
+fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Cellar/fish" ]; then
+  not_found "Fish"
+  is_fish_exist=0
+else
+  is_fish_exist=1
 fi
 
 # - - - - - - - - - - - - - - - - -

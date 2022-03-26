@@ -5,6 +5,7 @@
 **Added :**
 
 - not_found()
+- check is fish installed
 
 **Changed :**
 
