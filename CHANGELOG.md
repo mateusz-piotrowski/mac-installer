@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.13] (March 26 2022)
+
+**Added :**
+
+- TextMate
+
 ## [0.0.12] (October 06 2021)
 
 **Updated :**
