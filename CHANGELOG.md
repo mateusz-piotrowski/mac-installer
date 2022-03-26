@@ -2,6 +2,10 @@
 
 ## [0.0.14] (March 27 2022)
 
+**Added :**
+
+- not_found()
+
 **Changed :**
 
 - heading() to installing()

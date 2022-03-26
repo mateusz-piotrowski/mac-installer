@@ -15,6 +15,10 @@ installing () {
   printf "\n$(tput setaf 6)# $1 $(tput sgr0)\n\n"
 }
 
+not_found () {
+  printf "\n$(tput setaf 1)# $1 $(tput sgr0)\n\n"
+}
+
 # - - - - - - - - - - - - - - - - -
 
 title
