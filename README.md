@@ -28,6 +28,12 @@ Run the following command from the Terminal app to start setup.
 - [Dash](https://kapeli.com/dash)
 - [Visual Studio Code](https://code.visualstudio.com)
 
+## Branches
+
+- master
+- basic
+- full
+
 ## Contributor
 
 Mateusz Piotrowski

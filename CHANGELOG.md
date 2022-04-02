@@ -7,6 +7,10 @@
 - check is gh installed
 - gh
 
+**Updated :**
+
+- README.md - add branches section
+
 ## [0.0.14] (March 27 2022)
 
 **Added :**
