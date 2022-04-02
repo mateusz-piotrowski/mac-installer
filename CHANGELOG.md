@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.15] (April 02 2022)
+
+**Added :**
+
+- check is gh installed
+
 ## [0.0.14] (March 27 2022)
 
 **Added :**

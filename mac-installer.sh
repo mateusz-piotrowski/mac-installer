@@ -181,10 +181,19 @@ else
 fi
 
 if [[ ! $is_htop_exist -eq "0" ]]; then
-  printf "$(tput setaf 2)# Htop already installed.$(tput sgr0)\n\n"
+  printf "$(tput setaf 2)# Htop already installed.$(tput sgr0)\n"
 else
   installing "Installing Htop ..."
   brew install htop
+fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Cellar/gh" ]; then
+  not_found "gh"
+  is_gh_exist=0
+else
+  is_gh_exist=1
 fi
 
 # - - - - - - - - - - - - - - - - -
@@ -243,7 +252,7 @@ else
 fi
 
 if [[ ! $is_gnupg_exist -eq "0" ]]; then
-  printf "$(tput setaf 2)# GnuPG already installed.$(tput sgr0)\n"
+  printf "$(tput setaf 2)\n# GnuPG already installed.$(tput sgr0)\n"
 else
   installing "Installing GnuPG ..."
   brew install gnupg
