@@ -5,6 +5,7 @@
 **Added :**
 
 - check is gh installed
+- gh
 
 ## [0.0.14] (March 27 2022)
 

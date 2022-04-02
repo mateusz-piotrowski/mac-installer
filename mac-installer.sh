@@ -196,6 +196,13 @@ else
   is_gh_exist=1
 fi
 
+if [[ ! $is_gh_exist -eq "0" ]]; then
+  printf "$(tput setaf 2)# gh already installed.$(tput sgr0)\n\n"
+else
+  installing "Installing gh ..."
+  brew install gh
+fi
+
 # - - - - - - - - - - - - - - - - -
 
 if [ ! -d "/usr/local/Cellar/zsh" ]; then
