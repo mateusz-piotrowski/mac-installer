@@ -44,6 +44,23 @@ fi
 
 # - - - - - - - - - - - - - - - - -
 
+if [ ! -d "/usr/local/Cellar/heroku" ]; then
+  printf "\n$(tput setaf 1)# Heroku package not found.$(tput sgr0)"
+  is_heroku_exist=0
+else
+  is_heroku_exist=1
+fi
+
+if [[ ! $is_heroku_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Heroku already installed.$(tput sgr0)"
+else
+  installing "Installing Heroku ..."
+  brew tap heroku/brew
+  brew install heroku
+fi
+
+# - - - - - - - - - - - - - - - - -
+
 if [ ! -d "/usr/local/Cellar/git" ]; then
   printf "\n$(tput setaf 1)# Git package not found.$(tput sgr0)"
   is_git_exist=0
