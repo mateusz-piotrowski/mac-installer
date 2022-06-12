@@ -324,10 +324,26 @@ else
 fi
 
 if [[ ! $is_visual_studio_code_exist -eq "0" ]]; then
-  printf "\n$(tput setaf 2)# Visual Studio Code already installed.$(tput sgr0)\n\n"
+  printf "\n$(tput setaf 2)# Visual Studio Code already installed.$(tput sgr0)\n"
 else
   installing "Installing Visual Studio Code ..."
   brew install --cask visual-studio-code
+fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Caskroom/Transmission" ]; then
+  printf "\n$(tput setaf 1)# Transmission not found.$(tput sgr0)"
+  is_transmission_exist=0
+else
+  is_transmission_exist=1
+fi
+
+if [[ ! $is_transmission_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# Transmission already installed.$(tput sgr0)\n\n"
+else
+  installing "Installing Transmission ..."
+  brew install --cask transmission
 fi
 
 # - - - - - - - - - - - - - - - - -

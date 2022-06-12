@@ -1,5 +1,11 @@
 # The Changelog
 
+## [0.0.17] (June 12 2022)
+
+**Added :**
+
+- Transmission
+
 ## [0.0.16] (April 29 2022)
 
 **Added :**
