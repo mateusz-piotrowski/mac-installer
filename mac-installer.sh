@@ -340,10 +340,26 @@ else
 fi
 
 if [[ ! $is_transmission_exist -eq "0" ]]; then
-  printf "\n$(tput setaf 2)# Transmission already installed.$(tput sgr0)\n\n"
+  printf "\n$(tput setaf 2)# Transmission already installed.$(tput sgr0)"
 else
   installing "Installing Transmission ..."
   brew install --cask transmission
+fi
+
+# - - - - - - - - - - - - - - - - -
+
+if [ ! -d "/usr/local/Caskroom/vlc" ]; then
+  printf "\n$(tput setaf 1)# VLC not found.$(tput sgr0)"
+  is_vlc_exist=0
+else
+  is_vlc_exist=1
+fi
+
+if [[ ! $is_vlc_exist -eq "0" ]]; then
+  printf "\n$(tput setaf 2)# VLC already installed.$(tput sgr0)\n\n"
+else
+  installing "Installing VLC ..."
+  brew install --cask vlc
 fi
 
 # - - - - - - - - - - - - - - - - -
